@@ -1,6 +1,7 @@
-MaUi.ApplicationAdapter = DS.FixtureAdapter;
-
-// MaUi.ApplicationAdapter = DS.RESTAdapter({
-//   host: 'http://varkek.com', 
-//   namespace: 'api/v1',
-// });
+MaUi.ApplicationAdapter = DS.RESTAdapter.extend({
+ 
+ host: 'http://staging.varkek.com', 
+ // host: 'http://localhost:3000', 
+ 
+ namespace: 'api/v1',
+});

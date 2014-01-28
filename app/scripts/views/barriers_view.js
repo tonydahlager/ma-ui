@@ -1,2 +1,1 @@
-MaUi.BarriersView = Ember.View.extend({
-});
+MaUi.BarriersView = Ember.View.extend({});

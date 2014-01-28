@@ -1,9 +1,25 @@
-<h1>Barriers</h1>
+<div class="top"></div>
 
-<ul>
-  {{#each model}}
-    <li>{{#link-to 'barrier' this}}{{this.id}}{{/link-to}}</li>
-  {{/each}}
-</ul>
+<div id="search">
+  <div>
+    <input placeholder="Search Barriers"></input>
+  </div>  
+  <br>
+  <a href="#" class="btn btn-primary btn-sm">Advanced Search Options</a>
+</div>
 
-{{outlet}}
+
+<div class="search-results">
+  <h4>Search Results</h4>
+    <ul>
+      {{#each model}}
+        <li>
+          {{#link-to 'barrier' this}}{{this.title}}{{/link-to}}
+          <span class="label label-default">Category abc</span>
+        </li>        
+      {{/each}}
+    </ul>
+</div>
+
+
+{{ outlet }}

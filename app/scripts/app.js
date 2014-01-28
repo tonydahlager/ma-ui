@@ -1,4 +1,6 @@
-var MaUi = window.MaUi = Ember.Application.create();
+var MaUi = window.MaUi = Ember.Application.create({
+  LOG_TRANSITIONS: true
+});
 
 /* Order and include as you please. */
 require('scripts/controllers/*');

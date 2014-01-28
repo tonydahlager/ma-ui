@@ -13,22 +13,3 @@ MaUi.Barrier.reopen({
     });
   }.property()
 });
-
-// delete below here if you do not want fixtures
-MaUi.Barrier.FIXTURES = [
-  
-  {
-    id: 0,
-    
-    title: 'foo'
-    
-  },
-  
-  {
-    id: 1,
-    
-    title: 'foo'
-    
-  }
-  
-];
