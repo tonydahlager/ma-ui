@@ -1,0 +1,1 @@
+MaUi.ApplicationAdapter = DS.FixtureAdapter;
